@@ -1,0 +1,64 @@
+
+*{
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 28px;
+}
+#image {
+    float: left;
+}
+#header {
+    font-size: 32px;
+    text-indent: 50px;
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    
+}
+#goblin {
+    font-size: 22px;
+    text-indent: 50px;
+}
+body {
+    font-size: 28px;
+}
+p {
+    font-size: 20px;
+    
+}
+#welcome:first-letter{
+    font-size: 80px;
+}
+li{
+    margin: 10px 0;
+}
+a {
+    font-weight: bold;
+    color: orange;
+   font-size: 20px;
+   line-height: 100%;
+}
+a:hover{
+    color: green;
+}
+li {
+    font-size: 20px;
+}
+#product {
+    font-size: 28px
+}
+#guarantee {
+    font-size: 28px;
+}
+#guarp {
+    font-size: 18px;
+}
+b {
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    
+}
+#copy {
+    font-size: 14px;
+}
