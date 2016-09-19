@@ -59,14 +59,6 @@ p {
 li{
   margin: 10px 0;
 }
-nav {
-  position: absolute !important; left: 120px !important; top: 120px !important;
-  width: 160px;
-  display: inline !important;
-  margin: 0;
-  padding: 0;
-  margin-right: 10px;
-}
 #list {
   position: absolute !important; right: 270px !important; bottom: -60px !important;
   width: 160px;
