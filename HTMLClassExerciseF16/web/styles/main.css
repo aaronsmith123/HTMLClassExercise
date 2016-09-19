@@ -1,134 +1,123 @@
 
 *{
-    font-family: Arial, Verdana, sans-serif;
-    font-size: 28px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 28px;
     
    
     
 }
 header{
-    background-image: linear-gradient(45deg,white,orange,black);
-    width: 820px;
-    margin: auto;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 0px 0px 5px 5px;
+  background-image: linear-gradient(45deg,white,orange,black);
+  width: 820px;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 0px 5px 5px;
     
 }
 html {
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/bats.gif);
-    background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
 }
 div.content {
-    padding: 10px;
-    width: 800px;
-    margin: 0px auto;
-    box-shadow: 0px 0px 5px 5px;
-    border-style: solid;
-    border-color: black;
-    background-color: white;
-    font-size: 28px;
+  padding: 10px;
+  width: 800px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  font-size: 28px;
     
 }
 main {
-    position: relative; left: 150px; bottom: 10px;
+  position: relative; left: 150px; bottom: 10px;
 }
 
 #image {
-    float: left;
+  float: left;
 }
 #header {
-    font-size: 32px;
-    text-indent: 50px;
+  font-size: 32px;
+  text-indent: 50px;
 
     
 }
 #goblin {
-    font-size: 22px;
-    text-indent: 138px;
-}
-body {
-  
-    
+  font-size: 22px;
+  text-indent: 138px;
 }
 p {
-    font-size: 16px;
+  font-size: 16px;
     
 }
 #welcome:first-letter{
-    font-size: 80px;
+  font-size: 80px;
 }
-welcome{
-    
-}
-text{
-   
-}
-
 li{
-    margin: 10px 0;
+  margin: 10px 0;
 }
 nav {
-    position: absolute !important; left: 120px !important; top: 120px !important;
-    width: 160px;
-    display: inline !important;
-    margin: 0;
-    padding: 0;
-    margin-right: 10px;
+  position: absolute !important; left: 120px !important; top: 120px !important;
+  width: 160px;
+  display: inline !important;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
 }
 #list {
-     position: absolute !important; right: 270px !important; bottom: -60px !important;
-    width: 160px;
-    display: inline !important;
-    margin: 0;
-    padding: 0;
-    margin-right: 10px;
+  position: absolute !important; right: 270px !important; bottom: -60px !important;
+  width: 160px;
+  display: inline !important;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
 }
 a {
-   font-weight: bold;
-    color: orange;
-   font-size: 20px;
-   line-height: 100%;
+  font-weight: bold;
+  color: orange;
+  font-size: 20px;
+  line-height: 100%;
 }
 a:hover{
-    color: green;
+  color: green;
 }
 #catpic {
-    list-style-type: none;
-    position: relative; left: -35px;
+  list-style-type: none;
+  position: relative; left: -35px;
 }
 li {
-    font-size: 20px;
+  font-size: 20px;
 }
 #product {
-    font-size: 28px
+  font-size: 28px
 }
 #guarantee {
-    font-size: 28px;
+  font-size: 28px;
 }
 #guarp {
-    font-size: 16px;
+  font-size: 16px;
 }
 b {
-    font-size: 16px;
+  font-size: 16px;
 }
 footer{
-    padding: 0px !important;
-    text-align: center;
-    margin: auto;
-    height: 75px;
-    width: 820px;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 0px 0px 5px 5px;
-    background-image: linear-gradient(45deg,black,orange,white);
+  padding: 0px !important;
+  text-align: center;
+  margin: auto;
+  height: 75px;
+  width: 820px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 0px 5px 5px;
+  background-image: linear-gradient(45deg,black,orange,white);
     
     
 }
 #copy {
-    font-size: 14px;
-    position: relative; bottom: -20px;
+  font-size: 14px;
+  position: relative; bottom: -20px;
     
 }
