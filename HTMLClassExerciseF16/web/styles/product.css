@@ -1,12 +1,10 @@
 
 *{
   font-family: Arial, Verdana, sans-serif;
-  font-size: 28px;
-    
-   
-    
+  font-size: 28px;    
 }
 header{
+  position: relative;
   background-image: linear-gradient(45deg,white,orange,black);
   width: 820px;
   margin: auto;
@@ -16,6 +14,7 @@ header{
     
 }
 ul.topNav {
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,7 +24,9 @@ ul.topNav {
 ul.topNav li {
     float: left;
 }
-
+ul.topNav.active li {
+    color: orange;
+}
 ul.topNav li a {
     display: inline-block;
     color: white;
@@ -43,19 +44,22 @@ html {
   background-repeat: repeat;
 }
 div.content {
+  position: relative;
   padding: 10px;
   width: 800px;
+  height: 600px;
   margin: 0px auto;
   box-shadow: 0px 0px 5px 5px;
   border-style: solid;
   border-color: black;
   background-color: white;
-  font-size: 28px;
-    
 }
+
+
 main {
-  position: relative; left: 150px; bottom: 10px;
+/*  position: relative; left: 150px; bottom: 10px;*/
 }
+
 
 #image {
   float: left;
@@ -82,17 +86,35 @@ li{
   list-style-type: none;
 }
 #list  {
-  position: absolute !important; right: 820px !important; bottom: 460px !important;
-  position: fixed;
-  
-  width: 160px;
-  display: block !important;
-  margin: 0;
-  padding: 0;
-  margin-right: 10px;
-  list-style-type: none;
-  
+    position: absolute; right: 580px; top: -10px;
+    width: 160px;
+    float:left;
+    height: 100px;
+    margin-right: 100px;
 }
+
+.middle-col{
+    width: 300px;
+    position: absolute; left: 170px; top: 70px;
+}
+
+.right-col{
+    position: absolute; right: 0px; top: 0px;
+    width: 220px;
+    height: 600px;
+    background-color: #F5DEB3;
+    
+}
+#p{
+   position: absolute; left: 340px; top: 25px;
+   border-style: none; 
+   border-color: Transparent; 
+   overflow: auto;
+   font-size: 18px;
+   font-family: Arial,Verdana,sans-serif;
+   line-height: 20px;
+}
+
 .aa {
     font-size: 16px;
     font-weight: bold;
@@ -109,30 +131,57 @@ li{
 }
 a {
   font-weight: bold;
-  color: orange;
-  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
   line-height: 100%;
   list-style-type: none;
+  padding-bottom: 0px;
  
 }
 
 a:hover{
   color: green;
 }
-topNav.ul.li.first-child{
-    color: orange;
-}
-
-
 a:active {
     color: orange;
 }
 #catpic {
   list-style-type: none;
-  position: relative; left: -35px;
+  position: relative; left: -50px; bottom: 240px;
+}
+cat {
+    position: absolute; top: 300px; right: 300px;
+}
+
+#sideBar {
+    float: right;
+    position: absolute !important; right: 200px !important; bottom: 400px !important;
+    padding-bottom: 20px;
+    width: 180px !important;
+    border: 3px;
+    border-color: #F5DEB3;
+    background-color: #F5DEB3 !important;
+    
+}
+#sidebar.ul{
+    float: right;
+    position: absolute !important; right: -300px !important; bottom: 400px !important;
+}
+
+h3 {
+    font-size: 16px !important;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 7px;
 }
 li {
   font-size: 16px;
+  text-decoration: underline;
+}
+.sideli{
+    font-weight: normal !important;
+    font-size: 16px;
 }
 #product {
   font-size: 28px
@@ -156,6 +205,7 @@ footer{
   border-color: black;
   box-shadow: 0px 0px 5px 5px;
   background-image: linear-gradient(45deg,black,orange,white);
+  position: absolute; bottom: -100px; left: 180px;
     
     
 }
@@ -164,3 +214,4 @@ footer{
   position: relative; bottom: -20px;
     
 }
+
