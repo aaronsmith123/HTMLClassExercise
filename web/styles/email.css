@@ -1,0 +1,279 @@
+
+*{
+  font-family: Arial, Verdana, sans-serif;
+   
+}
+header{
+  position: relative;
+  background-image: linear-gradient(45deg,white,orange,black);
+  width: 820px;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 0px 5px 5px;
+    
+}
+a.join{
+    color: orange !important;
+}
+ul.topNav {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+ul.topNav li {
+    float: left;
+}
+ul.topNav.active li {
+    color: orange;
+}
+ul.topNav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 35px;
+    font-size: 18px;
+    
+    
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+}
+div.content {
+  position: relative;
+  padding: 10px;
+  width: 800px;
+  height: 600px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+
+main {
+/*  position: relative; left: 150px; bottom: 10px;*/
+}
+
+
+#image {
+  float: left;
+}
+#header {
+  font-size: 32px;
+  text-indent: 50px;
+
+    
+}
+#goblin {
+  font-size: 22px;
+  text-indent: 138px;
+}
+p {
+  font-size: 16px;
+    
+}
+#welcome:first-letter{
+  font-size: 80px;
+}
+li{
+  margin: 10px 0;
+  list-style-type: none;
+}
+#list  {
+    position: absolute; right: 580px; top: -10px;
+    width: 160px;
+    float:left;
+    height: 100px;
+    margin-right: 100px;
+}
+
+.middle-col{
+    width: 300px;
+    position: absolute; left: 170px; top: 70px;
+}
+
+.right-col{
+    position: absolute; right: 0px; top: 0px;
+    width: 220px;
+    height: 600px;
+    background-color: #F5DEB3;
+    
+}
+#p{
+   position: absolute; left: 340px; top: 25px;
+   border-style: none; 
+   border-color: Transparent; 
+   overflow: auto;
+   font-size: 18px;
+   font-family: Arial,Verdana,sans-serif;
+   line-height: 20px;
+}
+
+.aa {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    display:inline-block;
+    width:115px;
+    height:30px;
+    background-color:orange;
+    border:1px solid black;
+    text-decoration: none;
+    vertical-align: middle;
+    
+}
+a {
+  
+  color: black;
+  text-decoration: none;
+ 
+  line-height: 100%;
+  list-style-type: none;
+  padding-bottom: 0px;
+ 
+}
+
+a:hover{
+  color: green;
+}
+a:active {
+    color: orange;
+}
+#catpic {
+  list-style-type: none;
+  position: relative; left: -50px; bottom: 240px;
+}
+cat {
+    position: absolute; top: 300px; right: 300px;
+}
+
+#sideBar {
+    float: right;
+    position: absolute !important; right: 200px !important; bottom: 400px !important;
+    padding-bottom: 20px;
+    width: 180px !important;
+    border: 3px;
+    border-color: #F5DEB3;
+    background-color: #F5DEB3 !important;
+    
+}
+#sidebar.ul{
+    float: right;
+    position: absolute !important; right: -300px !important; bottom: 400px !important;
+}
+
+h3 {
+    font-size: 16px !important;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 7px;
+}
+li {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.sideli{
+    font-weight: normal !important;
+    font-size: 16px;
+}
+#product {
+  font-size: 28px
+}
+#guarantee {
+  font-size: 28px;
+}
+#guarp {
+  font-size: 16px;
+}
+b {
+  
+}
+footer{
+  padding: 0px !important;
+  text-align: center;
+  margin: auto;
+  height: 75px;
+  width: 820px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 0px 5px 5px;
+  background-image: linear-gradient(45deg,black,orange,white);
+  position: absolute; bottom: -100px; left: 180px;
+    
+    
+}
+#copy {
+  font-size: 14px;
+  position: relative; bottom: -20px;
+    
+}
+table {
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 125%;
+    border-spacing: 80px 0px;
+    
+}
+th.head{
+    
+}
+caption.cap {
+    font-size: 140% !important;
+}
+
+
+td.left {
+    vertical-align: bottom;
+    font-weight: bold !important;
+    position: relative; left: 25px;
+}
+td.middle {
+    text-decoration: underline;
+    vertical-align: bottom;
+}
+a.middle {
+    text-decoration: underline;
+    vertical-align: bottom;
+}
+td.right {
+    background-color: #F5DEB3;
+    vertical-align: bottom;
+}
+fieldset {
+    border: none !important;
+}
+form {
+    font-size: 30px;
+    position: absolute; left: 120px;
+}
+p.form {
+    text-align: right;
+    
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input.subscribe {
+    position: absolute; left: 130px;
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    font-size: 20px;
+}
+input{
+    width: 380px;
+    height:20px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Copyright September 2016 Aaron Smith -->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/email.css">
+        <meta charset="utf-8" />
+        <title>The Halloween Store</title>
+    </head>
+
+    <body>
+
+        <header>
+            <a href="index.html" title="link to home">
+                <img id="image" src="images/pumpkin.gif" alt="Pumpkin">
+            </a>
+            <h1 id="header">The Halloween Store</h1>
+            <h2 id="goblin">For the little Goblin in all of us!</h2>
+
+            <ul class="topNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="plist" href="productlist/productli.html">Product List</a></li>
+                <li><a href="personal">Personal</a></li>
+                <li><a href="decorating">Decorating Ideas</a></li>
+                <li><a class="join" href=".">Join Email</a></li>
+            </ul>
+        </header>    
+        <div class="content">
+            <main>
+                <form id="formEmail" name="formEmail" method="get" 
+                      action="subscribe.html">
+                    <fieldset id="contactInfo">
+                        <legend><strong>Please enter the following information</strong></legend>
+                        <p>
+                            <label for="name">First Name: </label>
+                            <input name="firstName" type="text" class="text" id="name" tabindex="100" autofocus required title="Your first name">
+                        </p>
+                        <p>
+                            <label for="name">Last Name: </label>
+                            <input name="lastName" type="text" class="text" id="lastName" tabindex="110" required title="Your first name">
+                        </p>
+                        <p>
+                            <label for="email" id="email">Email: </label>
+                            <input name="email" type="email" class="text" id="email" tabindex="120"  required title="Your email address">
+                        </p>
+                        <p>
+                            <label for="zip" id="zipcode">Zip Code: </label>
+                            <input name="zip" type="text" class="text" id="zip" tabindex="130" pattern="^[0-9]{5}$" placeholder="Enter 5 digit zip code" required title="Enter a 5 digit ZIP code">
+                        </p>
+                        <p><input class="subscribe" type="submit" value="Subscribe" /></p>
+                    </fieldset>
+
+                </form>
+
+                <div id="list">
+                    <ul>
+                        <li><a class="aa" href="products/props.htm" title="link to props page">Props</a></li>
+                        <li><a class="aa" href="products/costumes.htm" title="link to costumes page">Costumes</a></li>
+                        <li><a class="aa" href="products/specialeffects.htm" title="link to special effects page">
+                                Special Effects</a></li>
+                        <li><a class="aa" href="products/masks.htm" title="link to masks page">Masks</a></li>
+                    </ul>
+                </div>
+
+
+            </main>
+        </div>
+        <footer>
+            <p id="copy">&copy; 2016 Ben Murach</p>
+        </footer> 
+    </body>
+</html>
